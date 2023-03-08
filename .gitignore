@@ -3,6 +3,9 @@ a.out
 objs
 .DS_Store
 *.swp
+*.swiftmodule
+*.swiftdoc
+*.dylib
 
 so_long
 so_long_bonus
