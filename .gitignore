@@ -1,0 +1,5 @@
+a.out
+*.o
+objs
+.DS_Store
+*.swp
