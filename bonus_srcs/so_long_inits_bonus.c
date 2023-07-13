@@ -6,7 +6,7 @@
 /*   By: tkodai <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/11 21:55:56 by tkodai            #+#    #+#             */
-/*   Updated: 2021/08/12 12:32:34 by tkodai           ###   ########.fr       */
+/*   Updated: 2021/12/24 19:54:18 by tkodai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ void	ft_solong_init_3(t_data *d)
 	d->eat_stop_count = 0;
 	d->eat_time = 0;
 	d->eat_streak = 0;
-	d->life_stock = 2;
+	d->life_stock = 0; //change 2->0
 	d->game_set_count = 0;
 	d->clear_flag = 0;
 	d->stage_frame = DEFAULT_SPEED;

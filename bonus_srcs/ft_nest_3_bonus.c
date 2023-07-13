@@ -6,7 +6,7 @@
 /*   By: tkodai <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/19 11:28:16 by tkodai            #+#    #+#             */
-/*   Updated: 2021/08/13 14:08:35 by tkodai           ###   ########.fr       */
+/*   Updated: 2021/12/23 16:54:14 by tkodai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,13 +52,20 @@ void	nest_into(t_data *d, t_pac *pac)
 			pac->move_dx = -1;
 		}
 		else
+		{
 			pac->dx = d->nest.door_c_x * 1000;
+			d->bomb_flag = 1;
+		}
 	}
 	else if (pac->dy < (d->nest.door_c_y + 3) * 1000)
 	{
 		pac->dy += 500;
 		pac->move_dy = 1;
+		d->bomb_flag = 1;
 	}
 	else
+	{
+		d->bomb_flag = 1;
 		nest_into_2(d, pac);
+	}
 }

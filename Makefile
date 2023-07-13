@@ -6,14 +6,14 @@
 #    By: tkodai <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/08/16 15:45:54 by tkodai            #+#    #+#              #
-#    Updated: 2022/05/28 13:58:44 by tkodai           ###   ########.fr        #
+#    Updated: 2021/08/20 18:34:38 by tkodai           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 
 NAME	= so_long
 NAME2	= so_long_bonus
-CC		= clang
+CC		= gcc
 #CFLAGS	= -Wall -Werror -Wextra -O3 -I.
 CFLAGS	= -Wall -Werror -Wextra -O3
 MLX		= libmlx.dylib
@@ -64,7 +64,7 @@ $(NAME2) : $(SETS) $(OBJ_B)
 	$(CC) $(OBJ_B) $(MLXFLAG) -o $(NAME2)
 
 $(NAME) : $(SETS) $(OBJ_FILES) $(OBJ_M)
-	$(CC) $(OBJ_FILES) $(OBJ_M) $(MLXFLAG) $(CFLAGS) -o $(NAME)
+	$(CC) $(OBJ_FILES) $(OBJ_M) $(MLXFLAG) -o $(NAME)
 
 clean:
 	rm -f $(OBJS) $(OBJ_M) $(OBJ_B)

@@ -6,7 +6,7 @@
 /*   By: tkodai <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/21 18:29:58 by tkodai            #+#    #+#             */
-/*   Updated: 2021/08/14 16:13:11 by tkodai           ###   ########.fr       */
+/*   Updated: 2021/12/23 16:05:12 by tkodai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,4 +45,18 @@ void	open_file_tex(t_data *d)
 void	ft_read_xpm(t_data *d)
 {
 	open_file_tex(d);
+
+	//xmas
+	void	*img;
+	int		tmp;
+
+	img = mlx_xpm_file_to_image(d->mlx_ptr, "./tex/christmas_couple.xpm", \
+			&d->xmas_xpm_width, &d->xmas_xpm_height);
+	d->xmas_xpm_addr = mlx_get_data_addr(img, &d->xmas_bits_per_pixel, \
+			&d->xmas_line_len, &tmp);
+
+	img = mlx_xpm_file_to_image(d->mlx_ptr, "./tex/bakuhatsu4.xpm", \
+			&d->bomb_xpm_width, &d->bomb_xpm_height);
+	d->bomb_xpm_addr = mlx_get_data_addr(img, &d->bomb_bits_per_pixel, \
+			&d->bomb_line_len, &tmp);
 }

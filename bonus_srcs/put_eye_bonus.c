@@ -118,6 +118,8 @@ int	ret_eye_color(t_data *d, t_pac *pac, int x, int y)
 {
 	int		color;
 
+	//add
+	return (0);
 	color = 0;
 	if (pac->blue_time)
 	{
