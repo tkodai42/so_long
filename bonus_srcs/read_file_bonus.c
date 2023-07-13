@@ -41,7 +41,8 @@ static int	get_file_fd(t_data *d)
 	if (d->file_name)
 		fd = open(d->file_name, O_RDWR);
 	else
-		fd = open("./map/bonus_map/map.ber", O_RDWR);
+		//fd = open("./map/bonus_map/map.ber", O_RDWR);
+		fd = open("./map/bonus_map/xmas2.ber", O_RDWR);
 	if (fd <= 0)
 	{
 		printf("Error\nInvalid fd\n");
