@@ -55,7 +55,8 @@ XMAS_HDERS	= $(HDRS_PATH)/mac/so_long_xmas.h
 
 #======= RULES =======#
 .PHONY: all
-all: $(NAME)
+all: $(NAME) $(NAME2) $(NAME3)
+	
 
 $(NAME): $(SETS) $(OBJS)
 	$(CC) $(MINILIB)/$(MLX) $(CFLAGS) $(MLXFLAG) $(OBJS) -o $(NAME)
