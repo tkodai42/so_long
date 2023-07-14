@@ -6,7 +6,7 @@
 /*   By: tkodai <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/08 13:51:13 by tkodai            #+#    #+#             */
-/*   Updated: 2022/05/18 22:12:28 by tkodai           ###   ########.fr       */
+/*   Updated: 2021/12/29 20:50:35 by tkodai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -344,6 +344,21 @@ typedef struct s_data
 	int			xpm_height2;
 	int			bits_per_pixel2;
 	int			line_len2;
+
+	char		*xmas_xpm_addr;
+	int			xmas_xpm_width;
+	int			xmas_xpm_height;
+	int			xmas_bits_per_pixel;
+	int			xmas_line_len;
+
+	char		*bomb_xpm_addr;
+	int			bomb_xpm_width;
+	int			bomb_xpm_height;
+	int			bomb_bits_per_pixel;
+	int			bomb_line_len;
+	
+	int			bomb_flag;
+
 	int			madness;
 	int			eat_stop_count;
 	int			eat_time;
@@ -361,6 +376,9 @@ typedef struct s_data
 	t_cb		cb;
 	int			tmp42;
 	int			repaint;
+
+	//snow
+	int			snow_num;
 }				t_data;
 
 int		get_next_line(int fd, char **line);
@@ -563,5 +581,6 @@ void	ft_solong_init_1(t_data *d);
 //coffee
 void	set_anime_color(t_data *d, t_tex *tex);
 void	set_anime_tex(t_data *d, t_pac *pac, t_tex *tex);
+
 
 #endif
