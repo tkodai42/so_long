@@ -16,13 +16,13 @@ NAME2	= so_long_bonus
 NAME3	= so_long_xmas
 
 HDRS_PATH		+= includes/
-SRCS_PATH		+= srcs/
+SRCS_PATH		+= src/srcs/
 OBJS_PATH		+= objs/objs/
 
-B_SRCS_PATH		+= bonus_srcs/
+B_SRCS_PATH		+= src/bonus_srcs/
 B_OBJS_PATH		+= objs/bonus_objs/
 
-XMAS_SRCS_PATH		+= xmas_srcs/
+XMAS_SRCS_PATH		+= src/xmas_srcs/
 XMAS_OBJS_PATH		+= objs/xmas_objs/
 
 #======= FLAGS =======#
