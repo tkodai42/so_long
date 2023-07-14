@@ -1,4 +1,4 @@
-#include "../so_long_bonus.h"
+#include "so_long_bonus.h"
 
 void	shape_init_mass(t_mass *mass)
 {

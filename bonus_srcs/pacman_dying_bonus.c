@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../so_long_bonus.h"
+#include "so_long_bonus.h"
 
 //(double)pac->dx / 1000 * 8 , y + (double)pac->dy / 1000 * 8
 

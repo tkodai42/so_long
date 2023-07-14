@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../so_long.h"
+#include "so_long.h"
 
 void	my_mlx_pixel_put(t_data *d, int x, int y, int color)
 {

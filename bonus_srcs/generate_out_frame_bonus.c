@@ -1,4 +1,4 @@
-#include "../so_long_bonus.h"
+#include "so_long_bonus.h"
 
 void	fix_dotmap_edge(t_data *d)
 {

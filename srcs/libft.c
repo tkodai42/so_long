@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 //#include "get_next_line.h"
-#include "../so_long.h"
+#include "so_long.h"
 
 void	put_error2(char *err_str)
 {

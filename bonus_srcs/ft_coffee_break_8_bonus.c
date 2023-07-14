@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../so_long_bonus.h"
+#include "so_long_bonus.h"
 
 void	set_anime_color_expand(t_data *d, t_pac *pac, t_tex *tex)
 {

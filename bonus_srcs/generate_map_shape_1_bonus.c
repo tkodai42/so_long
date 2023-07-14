@@ -1,4 +1,4 @@
-#include "../so_long_bonus.h"
+#include "so_long_bonus.h"
 
 void	shape_del_central_4(t_data *d, int tab_x, int tab_y)
 {

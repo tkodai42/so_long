@@ -1,4 +1,4 @@
-#include "../so_long_bonus.h"
+#include "so_long_bonus.h"
 
 void	shape_set_status_2(t_data *d, int x, int y, t_mass *mass)
 {

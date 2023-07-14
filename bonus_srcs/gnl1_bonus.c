@@ -1,5 +1,5 @@
 //#include "get_next_line.h"
-#include "../so_long_bonus.h"
+#include "so_long_bonus.h"
 
 static char	*ft_strchr(char *str)
 {

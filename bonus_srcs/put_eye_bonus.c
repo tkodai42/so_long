@@ -1,4 +1,4 @@
-#include "../so_long_bonus.h"
+#include "so_long_bonus.h"
 
 const char	g_eye_up[16][16] = {{"0000000000000000"},
 							{"0000000000000000"},

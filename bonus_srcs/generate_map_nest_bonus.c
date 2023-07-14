@@ -1,4 +1,4 @@
-#include "../so_long_bonus.h"
+#include "so_long_bonus.h"
 
 void	set_xy(t_xy *xy, int x, int y)
 {

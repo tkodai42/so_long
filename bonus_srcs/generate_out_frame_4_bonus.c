@@ -1,4 +1,4 @@
-#include "../so_long_bonus.h"
+#include "so_long_bonus.h"
 
 void	put_fixed_path(t_data *d, int x, int y)
 {

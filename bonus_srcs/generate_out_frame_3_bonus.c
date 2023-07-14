@@ -1,4 +1,4 @@
-#include "../so_long_bonus.h"
+#include "so_long_bonus.h"
 
 void	write_frame3(t_data *d, t_outframe sframe)
 {

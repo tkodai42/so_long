@@ -1,4 +1,4 @@
-#include "../so_long_bonus.h"
+#include "so_long_bonus.h"
 
 const char	g_ede_tex[8][8] = {{"00001111"},
 							{"00110000"},

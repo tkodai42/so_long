@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../so_long_bonus.h"
+#include "so_long_bonus.h"
 
 int	ret_cb_logo_color_2(t_data *d, int x, int y, int num)
 {
