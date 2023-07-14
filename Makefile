@@ -17,13 +17,13 @@ NAME3	= so_long_xmas
 
 HDRS_PATH		+= includes/
 SRCS_PATH		+= srcs/
-OBJS_PATH		+= objs/
+OBJS_PATH		+= objs/objs/
 
 B_SRCS_PATH		+= bonus_srcs/
-B_OBJS_PATH		+= bonus_objs/
+B_OBJS_PATH		+= objs/bonus_objs/
 
 XMAS_SRCS_PATH		+= xmas_srcs/
-XMAS_OBJS_PATH		+= xmas_objs/
+XMAS_OBJS_PATH		+= objs/xmas_objs/
 
 #======= FLAGS =======#
 CC		= gcc
@@ -105,6 +105,7 @@ clean:
 	rm -rf $(OBJS_PATH)
 	rm -rf $(B_OBJS_PATH)
 	rm -rf $(XMAS_OBJS_PATH)
+	rm -rf objs
 
 .PHONY: fclean
 fclean: clean
