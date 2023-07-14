@@ -53,10 +53,19 @@ HDRS		= $(HDRS_PATH)/mac/so_long.h
 B_HDERS		= $(HDRS_PATH)/mac/so_long_bonus.h
 XMAS_HDERS	= $(HDRS_PATH)/mac/so_long_xmas.h
 
+COLOUR_GREEN=\033[0;32m
+COLOUR_RED=\033[0;31m
+COLOUR_BLUE=\033[0;34m
+COLOUR_END=\033[0m
+
 #======= RULES =======#
 .PHONY: all
 all: $(NAME) $(NAME2) $(NAME3)
-	
+	@echo "$(COLOUR_GREEN)"
+	@echo "USAGE: ./so_long       <map path>"
+	@echo "USAGE: ./so_long_bonus [option: map path] [option: size(number)]"
+	@echo "USAGE: ./so_long_xmas  [option: map path] [option: size(number)]"
+	@echo "$(COLOUR_END)"
 
 $(NAME): $(SETS) $(OBJS)
 	$(CC) $(MINILIB)/$(MLX) $(CFLAGS) $(MLXFLAG) $(OBJS) -o $(NAME)
