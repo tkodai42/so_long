@@ -75,6 +75,7 @@ $(B_OBJS_PATH):
 
 $(SETS):
 	make -C $(MINILIB)
+	cp $(MINILIB)/$(MLX) .
 
 .PHONY: clean
 clean:
