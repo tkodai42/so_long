@@ -22,7 +22,7 @@ void	ft_continue3(t_data *d, int flag)
 		d->life_score = 0;
 		d->stage_frame = DEFAULT_SPEED;
 		d->stage_count = 0;
-		d->life_stock = 0; // change 2->0
+		d->life_stock = 1; // change 2->0
 		init_fruits(d, &d->fruits);
 	}
 	d->game_set_count = 0;
