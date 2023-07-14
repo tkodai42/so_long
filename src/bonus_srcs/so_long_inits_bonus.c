@@ -6,7 +6,7 @@
 /*   By: tkodai <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/11 21:55:56 by tkodai            #+#    #+#             */
-/*   Updated: 2021/12/24 19:54:18 by tkodai           ###   ########.fr       */
+/*   Updated: 2021/08/12 12:32:34 by tkodai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,9 @@ void	fix_max_size_window(t_data *d)
 	{
 		if (d->width >= max_w || d->height >= max_h)
 		{
-			d->size = size - 1;
+			d->size = size - 2;
+			if (d->size <= 0)
+				d->size = 1;
 			d->width = d->map_width * 8 * d->size;
 			d->height = (d->map_height + 5) * 8 * d->size;
 			return ;
@@ -45,7 +47,7 @@ void	ft_solong_init_3(t_data *d)
 	d->eat_stop_count = 0;
 	d->eat_time = 0;
 	d->eat_streak = 0;
-	d->life_stock = 0; //change 2->0
+	d->life_stock = 2;
 	d->game_set_count = 0;
 	d->clear_flag = 0;
 	d->stage_frame = DEFAULT_SPEED;

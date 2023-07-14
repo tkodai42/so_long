@@ -2,15 +2,12 @@
 
 int	ret_body_color(t_data *d, t_pac *pac, int x, int y)
 {
-	//if (d->frame >= 4)
-	if (d->all_frame % 14 > 6)
+	if (d->frame >= 4)
 		return (ret_body_color_type1(d, pac, x, y));
 	else
 		return (ret_body_color_type2(d, pac, x, y));
 	return (0);
 }
-
-int	ret_body_color_xmas(t_data *d, t_pac *pac, int x, int y);
 
 static void	put_dotghost3(t_data *d, t_pac *pac, int x, int y)
 {
@@ -21,8 +18,6 @@ static void	put_dotghost3(t_data *d, t_pac *pac, int x, int y)
 	if (pac->status != GO_BACK && (!(pac->status == NEST \
 		&& pac->nest_status == INTO)))
 		color = ret_body_color(d, pac, x, y);
-	else //add
-		color = ret_body_color_xmas(d, pac, x, y);
 	tmp_color = 0;
 	if (d->madness)
 		tmp_color = get_madness_eye(d, pac, x, y);

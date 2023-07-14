@@ -6,7 +6,7 @@
 /*   By: tkodai <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/23 16:57:59 by tkodai            #+#    #+#             */
-/*   Updated: 2021/12/24 19:54:38 by tkodai           ###   ########.fr       */
+/*   Updated: 2021/08/12 18:24:41 by tkodai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	ft_continue3(t_data *d, int flag)
 		d->life_score = 0;
 		d->stage_frame = DEFAULT_SPEED;
 		d->stage_count = 0;
-		d->life_stock = 0; // change 2->0
+		d->life_stock = 2;
 		init_fruits(d, &d->fruits);
 	}
 	d->game_set_count = 0;

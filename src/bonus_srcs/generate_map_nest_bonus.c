@@ -54,19 +54,4 @@ void	generate_nest(t_data *d)
 		return ;
 	generate_nest_make_frame(d);
 	generate_nest_make_gate(d);
-	//xmas
-	int		x;
-	int		y;
-
-	y = -10;
-	while (y < 40)
-	{
-		x = -20;
-		while (x < 40)
-		{
-			d->dotmap[y + d->nest.door1_y * 8][x + d->nest.door1_x * 8] = BLACK;
-			x++;
-		}
-		y++;
-	}
 }

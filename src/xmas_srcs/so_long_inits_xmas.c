@@ -26,7 +26,9 @@ void	fix_max_size_window(t_data *d)
 	{
 		if (d->width >= max_w || d->height >= max_h)
 		{
-			d->size = size - 1;
+			d->size = size - 2;
+			if (d->size <= 0)
+				d->size = 1;
 			d->width = d->map_width * 8 * d->size;
 			d->height = (d->map_height + 5) * 8 * d->size;
 			return ;

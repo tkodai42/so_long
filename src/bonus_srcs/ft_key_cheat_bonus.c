@@ -6,7 +6,7 @@
 /*   By: tkodai <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/11 21:44:13 by tkodai            #+#    #+#             */
-/*   Updated: 2021/12/29 20:51:28 by tkodai           ###   ########.fr       */
+/*   Updated: 2021/08/16 17:41:25 by tkodai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,7 +85,6 @@ void	ft_key_pressed_cheat(int key, t_data *d)
 	}
 	if (key == KEY_PLUS || key == KEY_MINUS)
 	{
-		#if 0 //snow
 		if (key == KEY_PLUS)
 			d->stage_frame += 1000;
 		if (key == KEY_MINUS)
@@ -95,14 +94,5 @@ void	ft_key_pressed_cheat(int key, t_data *d)
 				d->stage_frame = 0;
 		}
 		printf(" game speed [%d]\n", d->stage_frame);
-		#else //snow
-		if (key == KEY_PLUS)
-			d->snow_num += 100;
-		if (key == KEY_MINUS)
-			d->snow_num -= 100;
-		printf("snow [%d]\n", d->snow_num);
-		#endif
-
-
 	}
 }
