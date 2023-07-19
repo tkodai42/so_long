@@ -12,17 +12,17 @@ make
 ./so_long       < map path >
 
 make bonus
-./so_long_bonus [option: map path] [option: size(number)]
+./so_long_bonus [option: map path] [option: size(int)]
 
 make xmas
-./so_long_xmas  [option: map path] [option: size(number)]
+./so_long_xmas  [option: map path] [option: size(int)]
 ```
 ## MOVE
 - WASD
 - key-up,key-left...
 
 ## cheat commands
-- [ N ] Clear the current stage. <---- try
+- [ N ] Clear the current stage.
 - [ 1 ] Display the enemy's target location.
 - [ 3 ] Weaken the enemy.
 - [ 4 ] Advance to the next stage.
