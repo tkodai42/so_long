@@ -22,7 +22,7 @@ make xmas
 - key-up,key-left...
 
 ## cheat commands
-- [ N ] Clear the current stage.
+- [ N ] Clear the current stage. <---- try
 - [ 1 ] Display the enemy's target location.
 - [ 3 ] Weaken the enemy.
 - [ 4 ] Advance to the next stage.
