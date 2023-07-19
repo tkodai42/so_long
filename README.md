@@ -17,18 +17,28 @@ make bonus
 make xmas
 ./so_long_xmas  [option: map path] [option: size(int)]
 ```
-## MOVE
-- WASD
-- key-up,key-left...
+## KEY
+ 
+| Key | Action |
+|---|---|
+| <kbd>W</kbd>, <kbd>↑</kbd>| UP |
+| <kbd>S</kbd>, <kbd>↓</kbd>| DOWN |
+| <kbd>A</kbd>, <kbd>←</kbd>| LEFT |
+| <kbd>D</kbd>, <kbd>→</kbd>| RIGHT |
+| <kbd>ESC</kbd>| EXIT |
+
 
 ## cheat commands
-- [ N ] Clear the current stage.
-- [ 1 ] Display the enemy's target location.
-- [ 3 ] Weaken the enemy.
-- [ 4 ] Advance to the next stage.
-- [ 5 ] Increase the number of remaining lives.
-- [ 6 ] Initialize the positions of the enemies.
-- [ 7 ] Switch the display to step count.
-- [ 8 ] go cragy
-- [ - ] Speed up the game.
-- [ + ] Slow down the game.
+
+| Key | Action |
+|---|---|
+| <kbd>N</kbd> | Clear the current stage. |
+| <kbd>1</kbd> | Display the enemy's target location. |
+| <kbd>3</kbd> | Weaken the enemy. |
+| <kbd>4</kbd> | Advance to the next stage. |
+| <kbd>5</kbd> | Increase the number of remaining lives. |
+| <kbd>6</kbd> | Initialize the positions of the enemies. |
+| <kbd>7</kbd> | Switch the display to step count. |
+| <kbd>8</kbd> | go cragy |
+| <kbd>-</kbd> | Speed up the game. |
+| <kbd>+</kbd> | Slow down the game. |
