@@ -1,10 +1,10 @@
 # so_long
 
-https://github.com/tkodai42/so_long/assets/74499576/f333d21a-d17f-414f-9b34-f2b7f74876b3
+<img width="320" alt="スクリーンショット 2023-07-14 18 38 09" src="https://github.com/tkodai42/so_long/assets/74499576/a32d0ca7-733c-4a79-98e4-0ff31dc1a093">
 
-<img width="400" alt="スクリーンショット 2023-07-14 18 36 16" src="https://github.com/tkodai42/so_long/assets/74499576/5ea5d4fa-55d8-4a90-a87c-13b04e929487">
+<img width="300" alt="スクリーンショット 2023-07-19 17 28 38" src="https://github.com/tkodai42/so_long/assets/74499576/2b8dfdeb-f973-451d-b962-23efbdda0a84">
 
-<img width="400" alt="スクリーンショット 2023-07-14 18 38 09" src="https://github.com/tkodai42/so_long/assets/74499576/a32d0ca7-733c-4a79-98e4-0ff31dc1a093">
+<img width="300" src="https://github.com/tkodai42/so_long/assets/74499576/46b27502-0baa-442d-bd1e-03735f70e454">
 
 ## USAGE
 ```
