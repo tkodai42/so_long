@@ -6,6 +6,10 @@
 
 <img width="300" src="https://github.com/tkodai42/so_long/assets/74499576/46b27502-0baa-442d-bd1e-03735f70e454">
 
+
+https://github.com/tkodai42/so_long/assets/74499576/1343928f-cb35-449b-8196-ea4419dbe326
+
+
 ## USAGE
 ```
 make
