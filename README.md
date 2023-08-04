@@ -43,6 +43,6 @@ make xmas
 | <kbd>5</kbd> | Increase the number of remaining lives. |
 | <kbd>6</kbd> | Initialize the positions of the enemies. |
 | <kbd>7</kbd> | Switch the display to step count. |
-| <kbd>8</kbd> | go cragy |
+| <kbd>8</kbd> | go crazy |
 | <kbd>-</kbd> | Speed up the game. |
 | <kbd>+</kbd> | Slow down the game. |
