@@ -11,14 +11,25 @@ https://github.com/tkodai42/so_long/assets/74499576/1343928f-cb35-449b-8196-ea44
 
 
 ## USAGE
+### mandatory
 ```
 make
 ./so_long       < map path >
-
+```
+### bonus
+```
 make bonus
+./so_long_bonus
+```
+```
 ./so_long_bonus [option: map path] [option: size(int)]
-
+```
+### Christmas bonus
+```
 make xmas
+./so_long_xmas
+```
+```
 ./so_long_xmas  [option: map path] [option: size(int)]
 ```
 ## Controls
