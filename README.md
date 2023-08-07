@@ -21,7 +21,7 @@ make bonus
 make xmas
 ./so_long_xmas  [option: map path] [option: size(int)]
 ```
-## KEY
+## Controls
  
 | Key | Action |
 |---|---|
