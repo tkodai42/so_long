@@ -1,4 +1,5 @@
 # so_long
+***runs on macOS only***
 
 <img width="320" alt="スクリーンショット 2023-07-14 18 38 09" src="https://github.com/tkodai42/so_long/assets/74499576/a32d0ca7-733c-4a79-98e4-0ff31dc1a093">
 
