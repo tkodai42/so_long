@@ -44,18 +44,19 @@ make xmas
 | <kbd>D</kbd>, <kbd>→</kbd>| RIGHT |
 | <kbd>ESC</kbd>| EXIT |
 
-
 ## cheat commands
+
+# PRESS M!!!!!
 
 | Key | Action |
 |---|---|
-| <kbd>N</kbd> | Clear the current stage. |
+| <kbd>M</kbd> | Clear the current stage. |
 | <kbd>1</kbd> | Display the enemy's target location. |
 | <kbd>3</kbd> | Weaken the enemy. |
 | <kbd>4</kbd> | Advance to the next stage. |
 | <kbd>5</kbd> | Increase the number of remaining lives. |
 | <kbd>6</kbd> | Initialize the positions of the enemies. |
 | <kbd>7</kbd> | Switch the display to step count. |
-| <kbd>8</kbd> | go crazy |
-| <kbd>-</kbd> | Speed up the game. |
-| <kbd>+</kbd> | Slow down the game. |
+| <kbd>8</kbd> | go crazy! |
+| <kbd>-</kbd> | Speed up. |
+| <kbd>+</kbd> | Slow down. |
