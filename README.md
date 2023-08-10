@@ -1,14 +1,15 @@
 # so_long
 ***runs on macOS only***
 
-<img width="320" alt="スクリーンショット 2023-07-14 18 38 09" src="https://github.com/tkodai42/so_long/assets/74499576/a32d0ca7-733c-4a79-98e4-0ff31dc1a093">
 
-<img width="300" alt="スクリーンショット 2023-07-19 17 28 38" src="https://github.com/tkodai42/so_long/assets/74499576/2b8dfdeb-f973-451d-b962-23efbdda0a84">
+<img height="400" alt="253534819-a32d0ca7-733c-4a79-98e4-0ff31dc1a093" src="https://github.com/tkodai42/so_long/assets/74499576/d75766f8-3a56-4d1a-a47a-edff3c82c933">
+<img height="400" alt="254512942-2b8dfdeb-f973-451d-b962-23efbdda0a84" src="https://github.com/tkodai42/so_long/assets/74499576/a55f2773-9e79-4fed-80bc-34cb2fbd60c3">
+<img height="400" src="https://github.com/tkodai42/so_long/assets/74499576/21e5fc06-f5fa-4b14-956d-69d2480846a0">
 
-<img width="300" src="https://github.com/tkodai42/so_long/assets/74499576/46b27502-0baa-442d-bd1e-03735f70e454">
+
+https://github.com/tkodai42/so_long/assets/74499576/2630bb66-e82d-443f-87d8-9068aafb5796
 
 
-https://github.com/tkodai42/so_long/assets/74499576/1343928f-cb35-449b-8196-ea4419dbe326
 
 
 ## USAGE
