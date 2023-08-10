@@ -27,7 +27,8 @@ XMAS_OBJS_PATH		+= objs/xmas_objs/
 
 #======= FLAGS =======#
 CC		= gcc
-CFLAGS	= -Wall -Werror -Wextra -O3
+#CFLAGS	= -Wall -Werror -Wextra -O3
+CFLAGS	= -O3 #os update
 
 MLX		= libmlx.dylib
 MLXFLAG	= -framework OpenGL -framework AppKit
@@ -119,6 +120,7 @@ clean:
 
 .PHONY: fclean
 fclean: clean
+	$(MAKE) -C $(MINILIB) clean
 	rm -f $(NAME)
 	rm -f $(NAME2)
 	rm -f $(NAME3)
