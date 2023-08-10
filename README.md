@@ -46,8 +46,6 @@ make xmas
 
 ## cheat commands
 
-# PRESS M!!!!!
-
 | Key | Action |
 |---|---|
 | <kbd>M</kbd> | Clear the current stage. |
