@@ -66,6 +66,11 @@ all: $(NAME) $(NAME2) $(NAME3)
 	@echo "USAGE: ./so_long       <map path>"
 	@echo "USAGE: ./so_long_bonus [option: map path] [option: size(number)]"
 	@echo "USAGE: ./so_long_xmas  [option: map path] [option: size(number)]"
+	@echo 
+	@echo "EXAMPLES: "
+	@echo "./so_long_bonus map/bonus_map/map.ber 2"
+	@echo "./so_long_bonus map/bonus_map/map_born_to_code.ber 2"
+	@echo "./so_long_xmas map/bonus_map/xmas2.ber 2"
 	@echo "$(COLOUR_END)"
 
 $(NAME): $(SETS) $(OBJS)
